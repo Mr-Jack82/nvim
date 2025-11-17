@@ -1,17 +1,10 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.coding.luasnip",
-    "lazyvim.plugins.extras.coding.mini-surround",
-    "lazyvim.plugins.extras.dap.core",
-    "lazyvim.plugins.extras.dap.nlua",
-    "lazyvim.plugins.extras.lang.json",
-    "lazyvim.plugins.extras.lang.markdown",
-    "lazyvim.plugins.extras.lang.toml",
-    "lazyvim.plugins.extras.lang.vue"
+
   ],
   "install_version": 8,
   "news": {
-    "NEWS.md": "10960"
+    "NEWS.md": "11866"
   },
   "version": 8
 }
