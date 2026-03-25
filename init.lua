@@ -88,23 +88,26 @@ P.S. You can delete this when you're done too. It's your config now! :)
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
 vim.g.mapleader = ','
-vim.g.maplocalleader = '<Nop> '
+vim.g.maplocalleader = '<Nop>'
 
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = true
 
 -- [[ Setting options ]]
-require ('config.options')
+require 'options'
 
 -- [[ Basic Keymaps ]]
-require ('config.keymaps')
+require 'keymaps'
 
 -- [[ Install `lazy.nvim` plugin manager ]]
-require ('config.lazy')
+require 'lazy-bootstrap'
+
+-- [[ Configure and install plugins ]]
+require 'lazy-plugins'
 
 -- [[ Basic Autocommands ]]
---  See `:help lua-guide-autocommands`
-require ('config.autocmds')
+-- See `:help lua-guide-autocommands`
+require 'autocmds'
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
